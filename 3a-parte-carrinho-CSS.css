@@ -1,0 +1,54 @@
+.cabecalho-interno .titulo {
+    line-height: normal;
+    font-size: 26px;
+    color: #121212;
+    margin-left: 15px;
+}
+
+.pagina-carrinho .finalizar-compra .tabela-carrinho .produto-info ul li:first-child { display: none; }
+
+.pagina-carrinho .finalizar-compra .tabela-carrinho .produto-info a { 
+    font-size: 14px; font-style: italic; font-weight: bold; 
+    color:#121212;
+}
+
+
+
+.tabela-carrinho th:first-child * {
+    text-align: left;
+    text-color: #121212;
+    color: #121212;
+}
+
+.finalizar-compra {
+    margin-bottom: 20px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+
+.tabela-carrinho .produto-info * {
+    text-align: left;
+    color: #121212;
+}
+
+.tabela-carrinho .quantidade a, .tabela-carrinho .excluir a {
+    font-size: 24px;
+    color: #121212;
+}
+
+.tabela-carrinho * {
+    text-align: center;
+    vertical-align: middle;
+    color: #121212;
+}
+
+.tabela-carrinho tr {
+    margin: 0 0 20px;
+    border: 1px solid #ccc;
+    background-color: #e2e2e2;
+    color: #121212;
+}
+
+a, a:hover, a:focus, .cor-principal, .menu a:hover, .atributo-comum a:hover span, .atributo-comum .active a span {
+    color: #8a8a8a;
+}

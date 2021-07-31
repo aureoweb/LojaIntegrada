@@ -1,0 +1,42 @@
+/ * Cor do fundo e texto do menu * /
+#cabecalho  >  .conteiner  >  .menu .superior ,  #cabecalho  >  .conteiner  >  .menu .superior  .com-filho  > ai {  cor de fundo :  # 4777B3 ;  }
+#cabecalho  >  .conteiner  >  .menu .superior  .titulo  {  color :  #191919 ;  }
+ 
+/ * Centralizar os itens do menu * /
+#cabecalho  >  .conteiner  >  .menu .superior  {  text-align :  center ;  }
+#cabecalho  >  .conteiner  >  .menu .superior  .nivel-um  > li {  float :  nenhum ;  display :  bloco embutido ;  borda esquerda :  0 ;  margem direita :  -3px ;  }
+
+.menu.superior .nivel-um > li {
+    float: left;
+    border-right: 1px solid rgb(79, 79, 79);
+    border-left: 1px solid rgba(15, 15, 15, 0);
+}
+
+.menu.superior .nivel-um {
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#202023+0,000000+100 */
+background: rgb(32,32,35); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(32,32,35,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,32,35,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,32,35,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202023', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+border-radius: 10px;
+    display: flex;
+justify-content: center;
+    
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 500px){
+    
+    .menu.superior .nivel-um {
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#202023+0,000000+100 */
+background: rgb(32,32,35); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(32,32,35,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(32,32,35,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(32,32,35,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202023', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+border-radius: 10px;
+    display: none;
+justify-content: center;
+    
+}
+}

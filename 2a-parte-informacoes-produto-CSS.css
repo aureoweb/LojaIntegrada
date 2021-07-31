@@ -1,0 +1,175 @@
+.row-fluid .produto {
+    width: 100%;
+    margin: 0;
+        margin-left: 0px;
+background-color: #fff;
+border-radius: 10px;
+
+}
+
+.produto .codigo-produto b{
+    color: #121212;
+}
+
+.produto .codigo-produto span[itemprop="sku"] {
+    word-break: break-word;
+    color: #121212;
+}
+
+.produto .acoes-produto .comprar .disponibilidade-produto {
+    font-size: 11px;
+    margin: 5px 0 0 0;
+    color: #121212;
+}
+
+.parcelas-produto .accordion .accordion-group .accordion-heading .text-parcelas {
+    margin-right: 10px;
+    font-size: 11px;
+    color: #121212;
+}
+
+.parcelas-produto .accordion .accordion-group .accordion-body .accordion-inner ul li span {
+    text-align: left;
+    display: inline-block;
+    color: #121212;
+}
+
+.cep label {
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #121212;
+}
+
+.listagem .listagem-linha > ul {
+    margin-left: -1%;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+.listagem .titulo-categoria {
+color: #121212;
+}
+
+.listagem.aproveite-tambem .titulo {
+color: #121212;
+}
+
+#descricao {
+color: #121212;
+font-size: 16px;
+}
+
+.produto > .row-fluid:first-child {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.produto .acoes-produto {
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.parcelas-produto .accordion {
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 20px 0 0px;
+}
+
+.botao.grande {
+    font-size: 26px;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.botao.principal {
+    color: #FFF;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    border-radius: 7px;
+}
+
+.produto .acoes-produto .comprar .qtde-adicionar-carrinho .qtde-carrinho {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+.listagem .listagem-item {
+    position: relative;
+    padding: 10px;
+    transition: box-shadow .1s;
+    margin-left: 7.127659574468085%;
+    border-color: #4f4f4f;
+    background-color: #eeeded85;
+    border-radius: 10px;
+    border: #dbdbdb solid 1px;
+    -webkit-box-shadow: 5px 8px 9px -1px rgba(0,0,0,0.13); 
+box-shadow: 5px 8px 9px -1px rgba(0,0,0,0.13);
+}
+
+.produto .cep ul li span {
+    font-size: 13px;
+    color: #121212;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 500px){
+
+.row-fluid .produto {
+    width: 100%;
+    margin: 0;
+        margin-left: 0px;
+    margin-left: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.listagem .listagem-linha > ul {
+    margin-left: -3%;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.listagem.aproveite-tambem .titulo {
+    color: #626262;
+}
+
+.listagem .listagem-item .nome-produto {
+    font-size: 18px;
+    line-height: 18px;
+    display: inline-block;
+    min-height: 40px;
+    word-wrap: break-word;
+    word-break: break-word;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+.acoes-produto-responsiva .tag-comprar {
+    margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: 199px;
+    margin-right: 83px;
+}
+
+}

@@ -1,0 +1,24 @@
+.tabela-carrinho .produto-info ul li span strong {
+    font-weight: bold;
+    font-family: "Montserrat", Sans-serif;
+    text-color: #121212;
+    color: #1c1c1c;
+    font-size: 9px;
+}
+
+.tabela-carrinho tr {
+    margin: 0 0 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.tabela-carrinho .bg-dark {
+    background-color: #fff;
+}
+
+
+.span6.offset3.hidden-phone.hidden-tablet
+{
+    visibility: hidden;
+}

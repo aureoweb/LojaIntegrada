@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* FUNDO RODAPE */
+
+/* texto assinar newsletter */
+#barraNewsletter .componente .texto-newsletter, #barraNewsletter .componente .alert {
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    padding: 0 1% 0 0;
+    overflow: hidden;
+    vertical-align: top;
+    font-size: 26px;
+}
+
+
+/* campo input newsletter */
+#barraNewsletter .componente input[type="text"] {
+    width: 250px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+/* borda botao assinar */
+#barraNewsletter .componente .botao {
+    position: static;
+    line-height: 13px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+/* tamanho texto botao assinar */
+#barraNewsletter .componente .newsletter-assinar:after {
+    content: "ASSINAR";
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1950px){
+    
+.fundo-secundario, .fundo-secundario *, .fundo-secundario:hover, .fundo-secundario.botao:hover {
+
+font-family: 'Open Sans' ,sans-serif;
+
+}
+
+    
+
+#rodape .institucional .span9 > .row-fluid {
+display: flex;
+flex-direction: row;
+text-align: center;
+align-items: flex-start;
+}
+#rodape .institucional .span9 > .row-fluid .span12.visible-phone{
+flex-direction: row;
+}
+
+#rodape .institucional .span9 > .row-fluid .span12.visible-phone > ul{
+margin-top: 5px !important;
+
+}
+#rodape .institucional ul {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+    #rodape{
+padding-top: 20px;
+background: rgb(44,43,46);
+background: radial-gradient(circle, rgba(44,43,46,1) 0%, rgba(41,41,43,1) 35%, rgba(18,18,18,1) 100%);
+}
+
+#rodape .institucional,
+#rodape .pagamento-selos{
+background-image:none;
+background-color: transparent;
+}
+
+#rodape .pagamento-selos .titulo{
+color: #fff;
+}
+
+
+
+#rodape .redes-sociais {
+    height: 200px;
+    width: 220px;
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    box-shadow: 0 3px 7px 0 rgb(0 0 0 / 80%);
+   display:none;
+}
+
+
+
+#rodape .institucional .span9 > .row-fluid{
+display: flex;
+flex-wrap: nowrap;
+}
+
+#rodape .institucional .span9 > .row-fluid .sobre-loja-rodape{
+    display: flex;
+text-align: left;
+	flex-wrap: wrap;
+	font-family: roboto;
+font-size: 16px;
+	order:1;
+}
+
+#rodape .institucional .span9 > .row-fluid .links-rodape-categorias{
+    display: flex;
+flex-wrap: wrap;
+order: 2;
+flex-direction: column;
+text-align: left;
+padding-left: 80px;
+font-family: roboto;
+font-size: 16px;
+order:2;
+}
+
+#rodape .institucional .span9 > .row-fluid .links-rodape-paginas{
+  display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+text-align: left;
+font-family: roboto;
+font-size: 16px;
+order:3;
+}
+
+#rodape .institucional .span9 > .row-fluid .span12.visible-phone{
+    display: flex;
+flex-wrap: wrap;
+order:4;
+}
+
+#instagram-rodape .conteiner a {
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+}
+
+.eapps-instagram-feed-posts-view.eui-slider-slide {
+    display: inline-flex;
+    width: 95%;
+    height: auto;
+    margin: 2px;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 500px){
+.fundo-secundario, .fundo-secundario *, .fundo-secundario:hover, .fundo-secundario.botao:hover {
+
+font-family: 'Open Sans' ,sans-serif;
+color: #FFF;
+font-size: medium;
+background-color: #121212;
+display: inline-block;
+flex: inline;
+padding-top: 1px;
+
+}
+
+#rodape .redes-sociais {
+    position: static;
+    width: auto;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    visibility: hidden;
+}
+
+#rodape .institucional .span9 > .row-fluid {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+#rodape .institucional .span9 > .row-fluid .span12.visible-phone{
+flex-direction: column;
+}
+
+#rodape .institucional .span9 > .row-fluid .span12.visible-phone > ul{
+margin-top: 5px !important;
+
+}
+#rodape .institucional ul {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-redes .span3 .hidden-phone{
+    display: none;
+}
+
+#rodape .titulo {
+    display: flex;
+    font-size: 17.5px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    justify-content: center;
+}
+
+#instagram-rodape .conteiner a {
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+}
+
+.eapps-instagram-feed-posts-view.eui-slider-slide {
+    display: inline-flex;
+    width: 95%;
+    height: auto;
+    margin: 2px;
+}
+
+}

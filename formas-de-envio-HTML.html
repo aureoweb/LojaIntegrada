@@ -1,0 +1,33 @@
+<!-- Formas de envio -->
+  
+<div id="span4-envios">
+    <style>
+        .pagamento-selos #span4-envios ul li {
+            display: inline-block;
+            margin: 0 10px 20px 0;
+        }
+
+        .pagamento-selos #span4-envios ul li img {
+            width: 100px; 
+        }
+
+	body.pagina-carrinho #span4-envios {
+	    display: none
+	}
+    </style>
+
+    <span class="titulo cor-secundaria">Formas de Envio</span>
+    <ul>
+
+        <li><img src="https://cdn.awsli.com.br/1981/1981774/arquivos/logo_correios.png"></li> 
+        <li><img src="https://cdn.awsli.com.br/1981/1981774/arquivos/logo_melhor_envio.png"></li>
+        <li><img src="https://cdn.awsli.com.br/1981/1981774/arquivos/logo_retirar_loja.png"></li>
+        
+    </ul>
+
+    <script type="text/javascript">
+        $(function(){
+            $('#span4-envios').appendTo('.pagamento-selos .conteiner .row-fluid');
+        })
+    </script>
+</div>

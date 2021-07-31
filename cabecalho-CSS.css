@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flex-container {
+    height:30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+	justify-content: center;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    background-color: #1d1d1ded;
+	padding: 10px;
+}
+
+.flex-item {
+    flex: 1 1 470px;
+    align-items: center;
+    padding-left: 130px;
+}
+
+/* CORES DIFERENTES LINK TOPO CABECALHO*/
+a.classe1:link, a.classe1:visited {
+	text-decoration: none
+	color: #fff;
+	}
+a.classe1:hover {
+	text-decoration: underline; 
+	color: #fff;
+}
+a.classe1:active {
+	text-decoration: none
+	color: #fff;
+	}
+	
+.Estilo2 {color: #ffffff}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.fonte> {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 500px){
+.flex-container {
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    background-color: #1d1d1ded;
+	padding-top: 8px;
+	width: 350px;
+    margin-bottom: 0px;
+padding-bottom: 0px;
+}
+
+.flex-item {
+ flex: 1 1 100px;
+ align-items: center;
+   width: 250px;
+   height: 55px;
+   padding-left: 10px;
+}
+
+
+#cabecalho {
+    padding-top: 0px;
+}
+
+	.fundo-secundario, .fundo-secundario *, .fundo-secundario :hover, .fundo-secundario:hover, .fundo-secundario.botao:hover {
+    color: #FFF;
+    font-size: medium;
+    background-color: #121212;
+    display: inline-block;
+    flex: inline;
+    padding-top: 1px;
+}
+
+.lista-redes span3 hidden-phone{display: none;}
+
+.lista-redes ul li, .canais-contato ul li{display: none;}
+
+.barra-inicial .lista-redes ul li:last-child { display: none; }
+	
+.logo a {
+    position: relative;
+    display: block;
+    height: 112px;
+    margin-top: -30px;
+}
+
+.busca .botao-busca {
+    height: 45px;
+    top: 0;
+    right: -4px;
+    line-height: 28px;
+}
+
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 1000px){
+.flex-container {
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    background-color: #1d1d1ded;
+	padding-top: 8px;
+	width: 550px;
+    
+}
+
+.flex-item {
+ flex: 1 1 100px;
+ align-items: center;
+   width: 550px;
+   height: 75px;
+   padding-left: 10px;
+}
+
+
+#cabecalho {
+    padding-top: 0px;
+}
+
+
+
+}
+
+
+
+
+@media only screen and (min-device-width: 1001px) and (max-device-width: 1950px){
+	
+
+
+.atalhos-mobile li:first-child {
+    border: SOLID;
+    float: left;
+}
+
+.lista-redes.span3.hidden-phone {
+            display: none;
+        }
+
+
+#cabecalho .busca { padding: 0; border: none; background: transparent; }
+#cabecalho .busca input { padding: 10px 5px 10px 15px; border-radius: 10px; }
+#cabecalho .busca .botao-busca { height: 42px; top: 0; right: 0; border-radius: 10px; 
+border-top-left-radius: 0; border-bottom-left-radius: 0; width: 55px; font-size: 18px; background-color: #121212;}
+.acoes-conta>li i { border-radius: 5px; }
+.carrinho { border-radius: 10px; }
+
+.barra-inicial .canais-contato span, .barra-inicial .canais-contato a, .barra-inicial .canais-contato i{
+color: #ffffff
+}
+.canais-contato ul {
+    float: right;
+    display: none;
+}
+
+.canais-contato ul{
+display: none !important
+}
+	
+}

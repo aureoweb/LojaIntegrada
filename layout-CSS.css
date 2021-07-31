@@ -1,0 +1,100 @@
+/* EXPANDIR LAYOUT */
+/*.conteiner-principal .conteiner { max-width: 100%;}*/
+
+.conteiner {
+    max-width: 100vw;
+    background-color: #7393bb;
+}
+
+.tema-escuro .conteiner, .tema-escuro .modal {
+    background-color: #222121;
+}
+
+
+/* MOSTRAR MAIS PRODUTOS DESTAQUE */
+element {
+    width: 463px;
+    float: left;
+    display: block;
+}
+
+
+
+
+/* canto arredondado banner tarja */
+img {
+    max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    border-radius: 10px;
+}
+
+
+
+/* centralizar texto produto */
+.borda-alpha, .borda-alpha * {
+    border-color: rgba(0,0,0,0.13);
+    text-align: center;
+}
+
+
+.produto .nome-produto {
+    font-size: 28px;
+    line-height: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.produto .codigo-produto {
+    font-size: 11px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+.preco-produto strong.titulo {
+    font-weight: bolder;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+
+.produto .acoes-produto .preco-produto.destaque-parcela .preco-promocional {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+.listagem.com-caixa .listagem-item {
+    margin: 0;
+    box-shadow: 0 0 2px rgb(0 0 0 / 33%);
+    border: 5px solid rgba(0,0,0,0.035);
+    background-color: rgba(255,255,255,0.04);
+    transition: transform .08s ease 0;
+    -webkit-transition: -webkit-transform .08s ease 0;
+    border-radius: 10px;
+}
+
+
+
+.carrinho.vazio > a span {
+
+    float: none;
+    display: block;
+    margin-left: 55px;
+    line-height: 40px;
+    padding: 0;
+    font-size: 13px;
+    color: #fff;
+
+}
+
+
+
+i.icon-facebook::before {display:none;}

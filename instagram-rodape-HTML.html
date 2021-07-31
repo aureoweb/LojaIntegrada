@@ -1,0 +1,23 @@
+<div id="instagram-rodape" class="hide">
+    <div class="conteiner">
+        <a href="https://instagram.com/dallu.semijoias">Siga-nos no Instagram</a>
+    </div>
+  
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-b72d9aa9-e969-4476-a4c4-b69663a759c2"></div>
+
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        if($('#rodape').length && $('#rodape .pagamento-selos').length) {
+            $('#rodape').before($('#instagram-rodape').removeClass('hide'));
+        } else {
+            $('#instagram-rodape').remove();
+        };
+    });
+</script>
+<style>
+    #instagram-rodape .conteiner { padding: 0; background: transparent; box-shadow: none; max-width: 1180px; margin: 50px auto 15px; }
+    #instagram-rodape .conteiner a { font-size: 20px; font-weight: 600; }
+</style>
